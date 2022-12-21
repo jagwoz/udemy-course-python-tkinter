@@ -1,12 +1,13 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 
-
+"""
 try:
     from ctypes import windll
     windll.shcore.SetProcessDpiAwareness(1)
 except Exception as e:
     print(e)
+"""
 
 root = tk.Tk()
 root.geometry('500x200')
